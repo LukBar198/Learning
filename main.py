@@ -9,8 +9,7 @@ print("\nfull_name2: ")
 print(full_name2)
 
 print(f"\nHello, {full_name2.title()}")
-
-message = f"\nHow You doin' {full_name2}?"
+message = f"\nHow You doin' {full_name2}?"  # Apostrophe ' inside " " - no problems.
 print(message)
 
 test = "  hhjjdd  "
