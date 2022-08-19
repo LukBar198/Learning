@@ -15,6 +15,11 @@ print(message)
 
 test = "  hhjjdd  "
 print(test)
-test = test.lstrip()
-test = test.rstrip()
-print(test)
+# Way to delete blank spaces
+test2 = test.lstrip()
+test2 = test2.rstrip()
+print(test2)
+
+# Better way to delete blank spaces
+test3 = test.strip()
+print(test3)
