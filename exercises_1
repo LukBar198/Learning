@@ -1,0 +1,33 @@
+# Exercise 1
+
+person1 = "Cassandra"
+print(f"Hello {person1}!")
+
+# Exercise 2
+
+person2 = "LUKAS baran"
+print(person2.upper())
+print(person2.lower())
+print(person2.title())
+
+# Exercise 3
+
+quote = '\n\tAbraham Lincoln once said: "You can fool all of the people some of the time,' \
+        '\n\tand some of the people all of the time, but you cannot fool all of the people all of the time."'
+
+print(f"{quote}")
+
+# Exercise 4
+
+famous_person = "Albert Einstein"
+message_n = f'\n\t{famous_person} once said: "Life is like riding a bicycle.' \
+            f' To keep your balance, you must keep moving."'
+print(message_n)
+
+# Exercise 5
+
+nname = "   lukas     "
+print(f"\n{nname}")
+print(f"\n\t{nname.rstrip()}")
+print(f"\n\t\t{nname.lstrip()}")
+print(f"\n\t\t\t{nname.strip()}")
