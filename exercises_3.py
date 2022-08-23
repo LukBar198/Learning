@@ -46,9 +46,14 @@ popped_guest = guests.pop(0)
 print(f"\n{popped_guest} przepraszam, niestety nie moge Cie zaprosic na obiad :(")
 
 print(f"\n{guests[0]} zapraszam na obiad!")
-print(f"\n{guests[1]} zapraszam na obiad!\n")
+print(f"\n{guests[1]} zapraszam na obiad!")
+
+print('\n---------------------------\n')
 
 del guests[0]
 del guests[0]
 
 print(guests)
+
+print('\n---------------------------')
+print('\n\t\t\tend')
